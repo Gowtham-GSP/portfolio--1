@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">Portfolio.</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <!-- <div class="media-icons">
+          
+          <a target="_blank" href="https://github.com/Gowtham-GSP"
+            ><i class="fab fa-github"></i
+          ></a>
+          
+        </div> -->
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Gowtham</div>
+          <div class="text-three">Full Stack web Developer</div>
+          <div class="text-four">From Chennai,India</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <!-- <img src="" alt="" /> -->
+          </div>
+          <div class="right">
+            <div class="topic">I'm Gowtham and I'm a Programmer</div>
+            <p>
+              Completed B.E Mechanical Engineering at Nandha Engineering College
+              (2021 batch). I'm comfortable with Competitive-Coding ,Web-
+              Development and Problem Solving. I'm an enthusiastic learner and a
+              good listener. Along with being a developer,To apply full
+              potential of my intrinsic talents and to take upon the inspiring
+              and challenging task and do my duties with genuineness and
+              effectiveness.<br />
+              I enjoy playing cricket and swimming and kabbadi for the rest of
+              my time.
+            </p>
+            <br />
+            <div class="hov">
+            
+              <a
+                href="https://drive.google.com/file/d/1WLNorDX8KT2cMgO6hL4FOP6aNbyajnSz/view?usp=sharing"
+                target="_blank"
+                ><button class="btn btn-primary">Download CV</button></a
+              >
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects Our Knowledge</div>
+            <p>
+              I’m proficient in JavaScript language and presently enhancing my
+              problem-solving skills in data structures for the past three
+              months. Coming to the development side of things I’m into Full
+              Stack Web development and the technologies I use are HTML, CSS,
+              and JavaScript Reactjs and Nodejs MongoDB . This website is
+              developed from the same and has been hosted using Netlify and
+              render.
+            </p>
+            <!-- <div class="experience">
+              <div class="num"></div>
+              <div class="exp">
+                Fresher
+              </div>
+            </div> -->
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavScript</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">React js</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Node js</div>
+              <div class="per">72%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Mongo DB</div>
+              <div class="per">82%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about project -->
+    <h1 class="head" id="projects">Projects</h1>
+    <div class="line"></div>
+    <div class="line1"></div>
+   <div class="cards" style="margin-bottom: 30px;">
+    <div class="card" style="width: 45rem;text-align: center;">
+      <div class="card-body">
+        <h3 class="card-title">E-commerce website</h3>
+        <h5>By using ReactJS, NodeJS and MongoDB</h5>
+        <p class="card-text">A simple E-commarce site users friendly features,its online store where you can buy or sell products online. more resposive and dynamic website.</p>
+        <a href="https://github.com/Gowtham-GSP/amazon-backend.git" class="card-link" target="_blank"><button type="button" class="btn btn-primary">github</button></a>
+        <a href="https://amazon-ecommerce.netlify.app" class="card-link" target="_blank"><button type="button" class="btn btn-primary">website link</button></a>
+      </div>
+    </div>
+    <div class="card" style="width: 45rem;margin-top: 20px;text-align: center;">
+      <div class="card-body">
+        <h3 class="card-title">To-do app</h3>
+        <h5>By using ReactJS,NodeJS,Express,MongoDB</h5>
+        <p class="card-text">A to do list app helps you organize tasks and stay on top of your deadlines. You can use it to manage everything from grocery lists to work-related tasks and more.</p>
+        <a href="https://github.com/Gowtham-GSP/mern-Todo.git" class="card-link" target="_blank"><button type="button" class="btn btn-primary">github</button> </a>
+        <a href="https://to-doos-lists.netlify.app/" class="card-link" target="_blank"><button type="button" class="btn btn-primary">website link</button></a>
+      </div>
+    </div>
+   
+    <div class="card" style="width: 45rem;margin-top: 20px;text-align: center;">
+      <div class="card-body">
+        <h3 class="card-title">Amazona Men's</h3>
+        <h5>By using ReactJS,NodeJS,Express,MongoDB</h5>
+        <p class="card-text"> Buy Men's Clothing Online at lowest prices. Explore latest collections of clothes for men like jeans, t-shirts, shirts and more from top brands at great offers & discounts.</p>
+        <a href="https://github.com/Gowtham-GSP/amazona.git" class="card-link" target="_blank"><button type="button" class="btn btn-primary">github</button> </a>
+        <a href="https://amazona.onrender.com/" class="card-link" target="_blank"><button type="button" class="btn btn-primary">website link</button></a>
+      </div>
+    </div>
+   </div>
+   <div class="card" style="width: 45rem;margin-top: 20px;margin-left: 25%; text-align: center;">
+    <div class="card-body">
+      <h3 class="card-title">Fashion store</h3>
+      <h5>By using ReactJS,NodeJS,Express,MongoDB</h5>
+      <p class="card-text">Shop online for the Latest Fashion & Lifestyle. Buy Clothing, Footwear & Accessories at best prices. Huge collection & premium brands available.</p>
+      <a href="https://github.com/Gowtham-GSP/new-commerse.git" class="card-link" target="_blank"><button type="button" class="btn btn-primary">github</button> </a>
+      <a href="https://mern-store.onrender.com/" class="card-link" target="_blank"><button type="button" class="btn btn-primary">website link</button></a>
+    </div>
+  </div>
+    
+  
+   
+    
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">You can contact me via phone or gmail</div>
+
+          <h2>Phone - (+91) 9715438497</h2>
+          <h3>Gmail - gowthams70321@gmail.com</h3>
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+      <div class="button">
+        <button>Let's Chat</button>
+      </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span
+          >Created By <a href="#">Gowtham</a> | &#169; 2021 All Rights
+          Reserved</span
+        >
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
